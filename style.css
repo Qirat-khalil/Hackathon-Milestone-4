@@ -1,0 +1,94 @@
+body{
+    background-color: rgb(251, 253, 255);
+    text-align: center;
+   margin: 25px;
+  padding: 0;
+}
+
+h1{
+    text-align: center;
+    color: black;
+}
+form{
+padding: 20px;
+max-width:600px;
+margin: auto;
+background-color: aliceblue;
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+
+}
+
+fieldset{
+    border: 2px solid rgb(21, 89, 216);
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+input,textarea{
+    margin: 4px;
+    padding: 8px;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+legend {
+    font-weight: bold;
+    text-align: left;
+    color: rgb(34, 29, 29);
+}
+label {
+    display: block;
+    margin-top: 10px;
+    color: black;
+
+}
+input,textarea {
+    margin-top: 4px; 
+    padding: 8px; 
+    width:100%;
+    border: 1px solid skyblue;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+button {
+    display: block;
+    background-color: skyblue;
+    color: black;
+    border-radius: 4px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    margin-top: 10px;
+    font-size: 18px;
+    padding: 10px;
+    cursor: pointer;
+    width: 100%;
+    border: none;
+}
+button:hover {
+    color: blue;
+}
+#resume-display {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    border: 2px solid skyblue;
+    border-radius: 8px;
+    background-color: rgb(228, 242, 255);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+#resume-display {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    border: 2px solid skyblue;
+    border-radius: 8px;
+    background-color: rgb(228, 242, 255);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    text-align: left;
+}
+#resume-display h2 {
+    color: black;
+}
+#pdf-button{
+    background-color: skyblue;
+}
+
